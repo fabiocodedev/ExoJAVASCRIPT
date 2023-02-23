@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+        <form id="form" action="#" methode="post">
+            <div id="div">
+                <h1>* : REQUIRED FIELDS !</h1>
+                <!-- --------------------------------------- -->
+                <span>
+                    <label for="firstName">
+                        FirstName <span>*</span>:
+                    </label>
+                    <input type="text" name="firstName" id="firstname" placeholder="Saisir votre nom" required>
+                </span>
+                <p class="error errorFirstName"> </p>
+                <!-- --------------------------------------- -->
+                <span>
+                    <label for="lastName">
+                        LastName <span>*</span>:
+                    </label>
+                    <input type="text" name="lastName" id="lastname" placeholder="Saisir votre prenom" required>
+                </span>
+                <p class="error errorLastName"> </p>
+                <!-- --------------------------------------- -->
+                <span>
+                    <label for="pseudo">
+                        Pseudo <span>*</span>:
+                    </label>
+                    <input type="text" name="pseudo" id="pseudo" placeholder="Saisir votre pseudo" required>
+                </span>
+                <p class="error errorPseudo"> </p>
+                <!-- --------------------------------------- -->
+                <span>
+                    <label for="mail">
+                        Email <span>*</span>:
+                    </label>
+                    <input type="email" name="mail" id="name" placeholder="Saisir votre email" required>
+                </span>
+                <p class="error errorMail"> </p>
+                <!-- --------------------------------------- -->
+                <span>
+                    <label for="mdp">
+                        Mot de passe <span>*</span>:
+                    </label>
+                    <input type="pwd" name="mdp" id="mdp" placeholder="Saisir votre password" required>
+                </span>
+                <p class="error errorMdp"> </p>
+                <!-- --------------------------------------- -->
+                <span>
+                    <label for="phone">
+                        Tel <span>*</span>:
+                    </label>
+                    <input type="number" name="phone" id="phone" placeholder="Saisir votre numero" required>
+                </span>
+                <p class="error errorPhone"> </p>
+                <!-- --------------------------------------- -->
+                <span>
+                    <label for="message">
+                        Message <span>*</span> <span id="span">(10 char max)</span> :
+                    </label>
+                    <textarea name="commentaire" id="message"  cols="30" rows="10"></textarea>
+                </span>
+                <p class="error errorMessage"> </p>
+                <!-- --------------------------------------- -->
+            <input id="button" type="submit" value="connection">
+            </div>
+        </form>
+</body>
+</html>
+
+
+
+<!-- <h1>* : REQUIRED FIELDS !</h1>
+            <div class="div div1">
+                <label for="firstName">
+                    FirstName <span>*</span>:
+                </label>
+                <input type="text" name="firstName" id="firstname" placeholder="Saisir votre nom" required>
+            </div>
+            <div class="div div2">
+                <label for="lastName">
+                    LastName <span>*</span>:
+                </label>
+                <input type="text" name="lastName" id="lastname" placeholder="Saisir votre prenom" required>
+            </div>
+            <div class="div div3">
+                <label for="pseudo">
+                    Pseudo <span>*</span>:
+                </label>
+                <input type="text" name="pseudo" id="pseudo" placeholder="Saisir votre pseudo" required>
+            </div>
+            <div class="div div4">
+                <label for="mail">
+                    Email <span>*</span>:
+                </label>
+                <input type="email" name="mail" id="name" placeholder="Saisir votre email" required>
+            </div>
+            <div class="div div5">
+                <label for="mdp">
+                    Mot de passe <span>*</span>:
+                </label>
+                <input type="pwd" name="mdp" id="mdp" placeholder="Saisir votre password" required>
+            </div>
+            <div class="div div6">
+                <label for="phone">
+                    Tel <span>*</span>:
+                </label>
+                <input type="number" name="phone" id="phone" placeholder="Saisir votre numero" required>
+            </div>
+            <div class="div div7">
+                <label for="message">
+                    Message <span>*</span> <span id="span">(10 char max)</span> :
+                </label>
+                <textarea name="commentaire" id="message"  cols="30" rows="10"></textarea>
+            </div>
+            <input id="button" type="submit" value="connection"> -->

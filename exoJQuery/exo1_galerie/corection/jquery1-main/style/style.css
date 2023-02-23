@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+  gap: 20px;
+}
+
+.full-img {
+  grid-column: 1;
+  text-align: center;
+}
+
+.full-img > img {
+  border: solid 10px;
+  border-radius: 10px;
+}
+
+.thumb-img {
+  grid-column: 2;
+  text-align: center;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.palindrome-container {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.palindrome-container > h1 {
+  margin-bottom: 30px;
+}

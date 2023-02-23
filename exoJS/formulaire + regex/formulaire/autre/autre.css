@@ -1,0 +1,63 @@
+html, body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+h1{
+    text-align: center;
+}
+form, .invalid-pwd{
+    width: 500px;
+    margin: 0 auto;
+}
+label{
+    float: left;
+    width: 150px;
+    margin-bottom: 0.5em;
+}
+input{
+    width: 200px;
+    height: 1.5em;
+    border-radius: 5px;
+    padding: 0.2em;
+}
+#submit{
+    width: 150px;
+    height: 2.5em;
+    background: lightblue;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+#pseudoError, #mdpError,#firstnameError,#lastnameError,
+#emailError,#messageError,#telError{
+    font-size: 0.8em;
+    font-style: italic;
+    color: #D38774;
+}
+
+#valid{
+    width: 200px;
+    background: lightgreen;
+    margin: 0 auto 30px auto;
+    border-radius: 5px;
+}
+
+
+.invalid-pwd{
+    display: none;
+    font-size: medium;
+    font-weight: 1.2em;
+    color: red;
+}
+
+
+/*https://www.toptal.com/designers/htmlarrows/symbols/saltire/ */
+.invalid::before{
+    content: "\2613";
+}
+.valid{
+    color: green;
+    text-decoration: line-through;
+}
+.valid::after{
+    content: " \2713";
+}

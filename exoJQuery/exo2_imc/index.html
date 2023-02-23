@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.2.min.js"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div id="main">
+        <h1>Calcule de votre IMC :</h1>
+        <div id="data">
+            <span id="span1">
+                <label for="tall">Votre taille (en cm) :</label>
+                <input id="taille" name="tall" type="number">
+            </span>
+            <span id="span2">
+                <label for="weight">Votre poids (en kg) :</label>
+                <input id="poids" name="weight" type="number">
+            </span>
+            <span id="span3">
+                <button id="buttonclick">Je calcule mon IMC</button>
+            </span>
+        </div>
+        <div id="result">
+            <h2>Résultat :</h2>
+            <p>Votre IMC (Indice de Masse Corporelle) est de :</p>
+            <p id="imc"></p>
+            <p id="exp"></p>
+        </div>
+    </div>
+</body>
+</html>

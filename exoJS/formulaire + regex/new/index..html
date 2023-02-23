@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <form action="#" method="post" onsubmit="verif(event)" >
+    <div id="container">
+        <p id="req">* : REQUIRED FIELDS !</p>
+        <div class="champ">FirstName:*</div>  <div class="element"><input type="text" name="firstName" id="firstName"></div>
+        <div class="msg"><p id="firstNameError" ></p></div>
+
+        <div class="champ">LastName:*</div>  <div class="element"><input type="text" name="lastName" id="lastName"></div>
+        <div class="msg"><p id="lastNameError"></p></div>
+
+        <div class="champ">Pseudo:*</div>  <div class="element"><input type="text" name="pseudo" id="pseudo"></div>
+        <div class="msg"><p id="pseudoError"></p></div>
+
+        <div class="champ">Email:*</div>  <div class="element"><input type="text" name="email" id="email"></div>
+        <div class="msg"><p id="emailError"></p></div>
+        <div id="formatMail"><p>Format attendu : exemple@domain.fr</p></div>
+
+        <div class="champ">Mot de passe:*</div> <div class="element"><input type="password" name="pass" id="pass"> </div>
+        <div class="msg"><p id="passError"></p></div>
+        <div id="passList">
+            <p class="error" id="min">Au moins une minuscule</p>
+            <p class="error" id="maj">Au moind une majuscule</p>
+            <p class="error" id="nb">Au moins un nombre</p>
+            <p class="error" id="spe">Au moins un caractere speciale</p>
+            <p class="error" id="long">Entre 8 et 20 caracteres</p>
+        </div>
+
+        <div class="champ">Tel:*</div> <div class="element"><input type="text" name="tel" id="tel"> </div>
+        <div class="msg"><p id="telError"></p></div>
+
+        <div class="champ">Message:*</div> <div class="element"> <input type="text" name="message" id="message"> </div>
+        <div class="msg"><p id="messageError"></p></div>
+       <div id="button"><input type="submit" value="Envoyer"></div>
+    
+    </div>
+</form>
+</body>
+</html>

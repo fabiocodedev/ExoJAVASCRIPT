@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+form{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
+#div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 40vw;
+}
+#div span input{
+    margin-right: ;
+}
+h1{
+    width: 100%;
+    font-size: 0.5em;
+    color: red;
+}
+label{
+    width: 50%;
+    margin: 1em;
+}
+input textarea{
+    width: 50%;
+    margin: 2em;
+}
+textarea{
+    width: 40%;
+    
+}
+#button{
+    width: 60%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+#span{
+    font-size: 0.5em;
+}
+div label span {
+    color: red;
+}

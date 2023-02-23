@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/form.js"></script>
+   
+</head>
+<body>
+    <div id="containe" >
+
+        <div>*: Required fields</div>
+
+        <form action="#" method="get" id="form" onsubmit="verif(event)">
+        <div class="lab">FirstName: </div><div class="lab1"> <input type="text" name="firsName" id="firsName" class="champ"> </div>
+        <div class="lab2"> <p id="reqFirstName" class="firsNameError"></p> </div>
+        <div class="lab">LastName: </div><div class="lab1"> <input type="text" name="lastName" id="lastName" class="champ"> </div>
+        <div class="lab2"> <p id="reqLastName" class="lastNameError"></p> </div>
+        <div class="lab">Pseudo: </div><div class="lab1"> <input type="text" name="pseudo" id="pseudo" class="champ"> </div>
+        <div class="lab2"> <p id="reqPseudo" class="pseudoError"></p> </div>
+        <div class="lab">Email: </div><div class="lab1"> <input type="text" name="email" id="email" class="champ"> </div>
+        <div class="lab2"> <p id="reqEmail" class="emailError"></p> </div>
+        <div class="lab">Mot de passe: </div><div class="lab1"> <input type="password" name="pass" id="pass" class="champ"></div>
+        <div id="password"><p>Le mot de passe doit contenir au moins:</p>
+            <div id="maj" class="invalid">Majuscule</div>
+            <div id="min" class="invalid">Minuscule</div>
+            <div id="num" class="invalid">Numéro</div>
+            <div id="esp" class="invalid">Caractère spécial</div>
+            <div id="char" class="invalid">Minimum 8 caractères</div>
+
+        </div>
+
+        <div class="lab2"> <p id="reqMotPass" class="passError"></p> </div>
+        <div class="lab">Tel: </div><div class="lab1"> <input type="tel" name="tel" id="tel" class="champ"></div>
+        <div class="lab2"> <p id="reqTel" class="telError"></p> </div>
+        <div class="lab">Message: </div><div class="lab1"> <textarea name="message" id="message" cols="30" rows="10" class="champ"></textarea></div>
+        <div class="lab2"> <p id="reqMenssage" class="messageError"></p> </div>
+        <div class="lab"> </div><div class="lab1"> <button type="submit" >Connexion</button></div>
+        <div class="lab2"> <h3 id="msm"></h3> </div>
+        </form>
+
+
+
+
+
+    </div>
+    
+
+
+  
+</body>
+
+</html>

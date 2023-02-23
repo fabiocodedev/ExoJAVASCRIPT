@@ -1,0 +1,34 @@
+{
+    "eleve":[
+        {
+            "nom":"Camara",
+            "prenom":"Moussa",
+            "moyenne":18
+        },
+        {
+            "nom":"simpson",
+            "prenom":"homer",
+            "moyenne":1
+        },
+        {
+            "nom":"tomb",
+            "prenom":"raider",
+            "moyenne":14
+        },
+        {
+            "nom":"fab",
+            "prenom":"fabio",
+            "moyenne":10
+        },
+        {
+            "nom":"bob",
+            "prenom":"tom",
+            "moyenne":6
+        },
+        {
+            "nom":"sly",
+            "prenom":"cooper",
+            "moyenne":18
+        }
+    ]
+}

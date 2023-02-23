@@ -1,0 +1,72 @@
+#container{
+    width: 30%;
+    margin: auto;
+    border: 2px solid black;
+    padding-left: 1em;
+}
+#req{
+    font-size: 0.5em;
+    color: red;
+}
+.champ{
+    display: inline-block;
+    width: 30%;
+}
+.element{
+    display: inline-block ;
+    width: 40%;
+}
+.msg p{
+    height: 10px;
+    font-size: 0.8em;
+    color: red;
+}
+#button{
+    text-align: center;
+    margin-bottom: 1em;
+}
+/* --------------------------------- */
+.error{
+    color: red;
+}
+
+
+/* ----------------------------------- */
+
+
+
+#formatMail{
+    display: none;
+    border: 2px solid black;
+    padding-left: 2em;
+    font-size: 0.8em;
+    margin-bottom: 2em;
+    margin-right: 5em; 
+}
+
+
+
+
+
+
+/* ----------------------------- */
+
+#passList{
+    display: none;
+    border: 2px solid black;
+    padding-left: 2em;
+    font-size: 0.8em;
+    margin-bottom: 2em;
+    margin-right: 5em;
+}
+
+
+.ok{
+    color: green;
+}
+.nok{
+    color: red;
+}
+.ok::before{
+    content: "\2611";
+}

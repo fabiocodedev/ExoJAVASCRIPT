@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript Course</title>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+   
+    <h1>02-formulaire-controle-saisie</h1><hr>
+    
+    <div id="valid"></div>
+    
+    
+    <form action="#" method="post" id="myForm">
+        <div class="required-fields">
+            *: Required fields
+        </div>
+        <br>
+        <label for="firstname">FirstName*:</label>
+        <input type="text" name="firstname" id="firstname" placeholder="saisir votre nom">
+        <p id="firstnameError"></p><br>
+        
+        <label for="lastname">FirstName*:</label>
+        <input type="text" name="lastname" id="lastname" placeholder="saisir votre prénom">
+        <p id="lastnameError"></p><br>
+        
+        <label for="pseudo">Pseudo</label>
+        <input type="text" name="pseudo" id="pseudo" placeholder="saisir votre pseudo">
+        <p id="pseudoError"></p><br>
+
+        <label for="email">Email:</label>
+        <input type="text" class="email" name="email" id="email" placeholder="saisir votre email">
+        <p id="emailError"></p><br>
+        
+        
+        <label for="mdp">Mot de passe</label>
+        <input type="password" name="mdp" id="mdp" placeholder="saisir votre mot de passe" >
+        <p id="mdpError"></p><br>
+
+        <div class="invalid-pwd">
+            <div id="maj" class="invalid">Une majuscule</div>
+            <div id="minis" class="invalid">Une miniscule</div>
+            <div id="special" class="invalid">spécial</div>
+            <div id="chiffre" class="invalid">chiffre</div>
+            <div id="taille" class="invalid">8 caractères minima</div>
+        </div>
+
+        <label for="tel">Tel:</label>
+        <input type="text" class="tel" name="tel" id="tel" placeholder="saisir votre numéro">
+        <div id="telError"></div><br>
+        
+        
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <div>10 characters maximum</div>
+        <p id="messageError"></p><br>
+        
+        <input type="submit" id="submit" value="connexion" >
+    </form>
+    
+    
+    <script  type="text/javascript" src="contactNew.js"></script>
+  </body>
+</html>

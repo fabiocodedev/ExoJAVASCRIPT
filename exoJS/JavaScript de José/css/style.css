@@ -1,0 +1,47 @@
+
+
+
+#containe{
+
+
+
+border: 1px solid black;
+width: 50%;
+margin: auto;
+
+
+
+}
+.lab{
+    display: inline-block;
+    width: 30%;
+    padding: 3px;
+}
+.lab1{
+    display: inline-block;
+    width: 40%;
+    padding: 3px;
+}
+
+.lab2{
+    width: 100%;
+    padding: 5px;
+
+}
+p{
+    color: rgb(236, 74, 74);
+}
+
+#password{
+    border: 1px solid rgb(236, 74, 74);
+    display: none;
+
+}
+
+.invalid{
+    color: rgb(236, 74, 74);
+}
+
+.valid{
+    color: rgb(74, 236, 109);
+}
